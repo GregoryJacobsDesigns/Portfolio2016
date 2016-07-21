@@ -1,0 +1,76 @@
+<!--
+/** SVG Name: Gregory Jacobs' Skills Program Knowledge - Animated SVG Icons
+*** Description: Simple SVG Icon Animation
+*** Version: 1.0
+*** Author: Gregory Jacobs
+*** License: GPL2
+**/
+-->
+<svg version="1.1" id="GJ_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" 
+	 viewBox="0 0 550 550" style="enable-background:new 0 0 550 550;" xml:space="preserve">
+<style type="text/css">
+	.st0{
+		clip-path:url(#SVGID_2_);
+		fill:none;
+		stroke:#59B7A9;
+		stroke-width:50;
+	}
+	.st0 {
+		stroke-dasharray: 2100;
+		stroke-dashoffset: 0;
+		-webkit-animation: 	animate 5s 0s infinite alternate;
+		-o-animation: 		animate 5s 0s infinite alternate;
+		-moz-animation: 	animate 5s 0s infinite alternate;
+		animation: 			animate 5s 0s infinite alternate;
+	}		
+	@-webkit-keyframes animate {
+		0% {
+			opacity:0;
+			stroke-dashoffset:2100;
+		}
+		25% {opacity:1;}
+		93.5% {
+			stroke:#59B7A9;
+		}		
+		100% {
+			stroke:white;
+			stroke-dashoffset:0;
+		}
+	}
+	@keyframes animate {
+		0% {
+			opacity:0;
+			stroke-dashoffset:2100;
+		}
+		25% {
+			opacity:1;
+		}
+		93.5% {
+			stroke:#59B7A9;
+		}
+		100% {
+			stroke:white;
+			stroke-dashoffset:0;
+		}
+	}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M249.1,548.3c-3.7,0-7.4-0.1-11.1-0.2c-77.8-2.9-152.5-36.4-210.4-94.3L63,418.5
+			c48.9,48.9,111.7,77.2,176.9,79.7c65.2,2.4,126.3-21.5,172.2-67.5c66.8-66.8,86.5-171,48-253.4l45.3-21.2
+			c23.4,50,30.1,106.3,19.4,163c-10.6,56.2-37.4,107.1-77.3,147C394.3,519.3,324.2,548.3,249.1,548.3z M244.6,456.6
+			c-56.2,0-109.3-22.2-149.6-62.5c-43.3-43.3-67.7-100.3-68.7-160.5c-1-60.6,21.7-117.2,63.8-159.4C132.7,31.5,190.7,6,253.4,2.2
+			C316.1-1.6,377,16.8,424.8,54.1L394,93.5C355.8,63.7,307,49,256.4,52.1c-50.5,3.1-97,23.5-130.9,57.4
+			c-32.5,32.5-50,76.3-49.2,123.2c0.8,47.2,20,92,54,126c30.9,30.9,71.5,47.9,114.3,47.9c0,0,0.1,0,0.1,0
+			c40.5,0,78.2-15.5,106.2-43.6c21.6-21.6,34.8-50.2,37.9-80.7H235.4v-50h201.9l1.6,23.3c3.8,53.5-15.5,105.6-52.7,142.8
+			c-37.5,37.5-87.7,58.2-141.6,58.2C244.7,456.6,244.6,456.6,244.6,456.6z M442.7,146.2c-6.2-9.4-13.3-18.4-21.6-27.7l37.2-33.4
+			c9.9,11.1,18.5,22,26.1,33.4L442.7,146.2z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path id="whole_1_" class="st0" d="M45.3,436.1c109.6,109.6,278.6,118.3,384.5,12.2c74-74,96.1-189.4,53-281.7l-19.3-34.4
+		c-7.1-10.6-15.1-20.7-23.9-30.5l-30.2-28c-88.9-69.4-222.5-61.1-301.6,18c-77.2,77.2-75.1,204.6,4.8,284.5
+		c71.8,71.8,186.6,73.8,256,4.3c33.5-33.5,48.6-78.8,45.4-123.4H235.4"/>
+</g>
+</svg>

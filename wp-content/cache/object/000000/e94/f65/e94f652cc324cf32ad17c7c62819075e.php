@@ -1,0 +1,1 @@
+>‡W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":4:{s:12:"last_checked";i:1468480857;s:7:"checked";a:5:{s:7:"dt-the7";s:5:"3.8.1";s:13:"gregoryjacobs";s:5:"1.0.0";s:13:"twentyfifteen";s:3:"1.5";s:14:"twentyfourteen";s:3:"1.7";s:13:"twentysixteen";s:3:"1.2";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}}

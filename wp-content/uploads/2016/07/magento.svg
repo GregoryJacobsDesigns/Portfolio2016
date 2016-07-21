@@ -1,0 +1,70 @@
+<!--
+/** SVG Name: Gregory Jacobs' Skills Program Knowledge - Animated SVG Icons
+*** Description: Simple SVG Icon Animation
+*** Version: 1.0
+*** Author: Gregory Jacobs
+*** License: GPL2
+**/
+-->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{
+		fill:none;
+		stroke:#59B7A9;
+		stroke-width:2;
+		stroke-miterlimit:10;
+	}
+	.st1{
+		fill:none;
+		stroke:#59B7A9;
+		stroke-width:4;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke-miterlimit:10;
+	}
+	.st0,
+	.st1 {
+		stroke-dasharray: 600;
+		
+		stroke-dashoffset: 0;
+		
+		-webkit-animation: 	animate 15s 0s infinite alternate;
+		
+		-o-animation: 		animate 15s 0s infinite alternate;
+		
+		-moz-animation: 	animate 15s 0s infinite alternate;
+		
+		animation: 			animate 15s 0s infinite alternate;
+		
+	}		
+	@-webkit-keyframes animate {
+		0% {
+			stroke-dashoffset:600;
+		
+		}
+		100% {
+			stroke-dashoffset:0;
+		
+		}
+	}
+	@keyframes animate {
+		0% {
+			stroke-dashoffset:600;
+		
+		}		
+		100% {
+			stroke-dashoffset:0;
+		
+		}
+	}		
+</style>
+<path id="border" class="st0" d="M89,99H11C5.5,99,1,94.5,1,89V11C1,5.5,5.5,1,11,1h78c5.5,0,10,4.5,10,10v78C99,94.5,94.5,99,89,99
+	z"/>
+<g>
+	<path class="st1" d="M54.3,34.5v44.1L50,81.3l-4.3-2.7V34.5l-11.2,6.9v37.7L50,88.7l15.7-9.6V41.4L54.3,34.5z M50,11.3L17.2,31.1
+		v37.7l8.5,5V36.1L50,21.4l24.3,14.7l0.1,0.1l0,37.6l8.4-5V31.1L50,11.3z"/>
+	<path class="st1" d="M82.8,31.1L50,11.3L17.2,31.1l8.5,5L50,21.4l24.4,14.8L82.8,31.1z M54.3,34.5v13.9l11.4-7L54.3,34.5z
+		 M34.4,41.5l11.2,6.9V34.5L34.4,41.5z"/>
+</g>
+</svg>

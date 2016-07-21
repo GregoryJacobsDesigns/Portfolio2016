@@ -1,0 +1,13 @@
+<svg version="1.1" id="GJ_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+ 
+<rect y="90" fill="none" width="612" height="612"/>
+<g id="g-logo-paths">
+	<path id="g-path" fill="none" stroke="#000" stroke-width="48" d="M471.5,148.2
+		C362,62.7,197.5,73,100.1,170.4C5,265.5,7.6,422.4,106,520.8c88.5,88.5,229.8,90.9,315.3,5.2c41.3-41.3,59.8-97,56-152h-220"/>
+	<path id="j-dot" fill="none" stroke="#000" stroke-width="48" d="M538.1,220.3
+		c-8.7-13.1-18.5-25.5-29.4-37.6"/>
+	<path id="j-base" fill="none" stroke="#000" stroke-width="48" d="M23.1,594.5
+		c135,135,343.1,145.7,473.5,15c91.1-91.1,118.4-233.3,65.2-346.9"/>		
+</g>
+</svg>

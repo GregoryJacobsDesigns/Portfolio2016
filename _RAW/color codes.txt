@@ -1,0 +1,14 @@
+NAVY
+#264868
+
+LIGHT BLUE
+#88BDE8
+
+TEAL 1 (lighter teal)
+#59B7A9
+
+TEAL 2 (darker teal)
+#2FA694
+
+OFFWHITE
+#F4EFEB

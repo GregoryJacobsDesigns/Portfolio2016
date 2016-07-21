@@ -1,0 +1,108 @@
+<!--
+/** SVG Name: Gregory Jacobs' Skills Program Knowledge - Animated SVG Icons
+*** Description: Simple SVG Icon Animation
+*** Version: 1.0
+*** Author: Gregory Jacobs
+*** License: GPL2
+**/
+-->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-100 692 200 200" enable-background="new -100 692 200 200" xml:space="preserve">
+<defs>
+	<style type="text/css">
+		.path-style {
+			fill:none;
+			stroke:#3e6386;
+			stroke-width:2;
+			stroke-linecap:square;
+			stroke-miterlimit:10;
+		}
+		/* animation-name, x= duration, y= delay, z= iterations (infinite), ease-in-out, direction */
+
+		#G-Path {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: 	animate-g  15s 0s infinite alternate;
+			-o-animation: 		animate-g  15s 0s infinite alternate;
+			-moz-animation: 	animate-g  15s 0s infinite alternate;
+			animation: 			animate-g  15s 0s infinite alternate;
+		}
+		#J-Dot-Path {
+			stroke-dasharray: 52;
+			stroke-dashoffset: 0;
+			-webkit-animation: 	animate-j1 15s 0s infinite alternate;
+			-o-animation: 		animate-j1 15s 0s infinite alternate;
+			-moz-animation: 	animate-j1 15s 0s infinite alternate;
+			animation: 			animate-j1 15s 0s infinite alternate;
+		}				
+		#J-Base-Path {
+			stroke-dasharray: 600;
+			stroke-dashoffset: 0;
+			-webkit-animation: 	animate-j2 15s 0s infinite alternate;
+			-o-animation: 		animate-j2 15s 0s infinite alternate;
+			-moz-animation: 	animate-j2 15s 0s infinite alternate;
+			animation: 			animate-j2 15s 0s infinite alternate;
+		}		
+		@-webkit-keyframes animate-g {
+			0% {
+				stroke-dashoffset:1000;
+			}		
+			100% {
+				stroke-dashoffset:0;
+			}
+		}
+		@-webkit-keyframes animate-j1 {
+			0% {
+				stroke-dashoffset:52;
+			}
+			100% {
+				stroke-dashoffset:0;
+			}
+		}
+		@-webkit-keyframes animate-j2 {
+			0% {
+				stroke-dashoffset:600;
+			}
+			100% {
+				stroke-dashoffset:0;
+			}
+		}
+		@keyframes animate-g {
+			0% {
+				stroke-dashoffset:1000;
+			}		
+			100% {
+				stroke-dashoffset:0;
+			}
+		}
+		@keyframes animate-j1 {
+			0% {
+				stroke-dashoffset:52;
+			}
+			100% {
+				stroke-dashoffset:0;
+			}
+		}
+		@keyframes animate-j2 {
+			0% {
+				stroke-dashoffset:600;
+			}
+			100% {
+				stroke-dashoffset:0;
+			}
+		}
+	</style>
+</defs>			 		 
+<g id="g-logo-paths">
+	<path id="G-Path" class="path-style" d="M-10.4,850.5
+		c-18.2,0-35.5-7.2-48.6-20.3c-29.2-29.2-29.9-76-1.6-104.2c13.9-13.9,32.9-22.3,53.5-23.6c20.6-1.2,40.5,4.8,56.1,17l-6.1,7.9
+		c-13.7-10.7-31.2-16-49.4-14.9c-18.1,1.1-34.8,8.4-47,20.6c-24.4,24.4-23.7,64.8,1.6,90.1c11.2,11.2,26,17.4,41.5,17.4c0,0,0,0,0,0
+		c14.8,0,28.6-5.7,38.8-15.9c8.9-8.9,13.9-20.9,14.2-33.6h-56.1v-10h65.7l0.3,4.6c1.2,17.3-5,34-17,46
+		C23.4,843.8,7.1,850.5-10.4,850.5C-10.4,850.5-10.4,850.5-10.4,850.5z"/>
+	<path id="J-Dot-Path" class="path-style" d="M60.2,746
+		c-2.2-3.3-4.8-6.6-7.7-9.9l7.4-6.7c3.3,3.6,6.1,7.2,8.6,11L60.2,746z"/>
+	<path id="J-Base-Path" class="path-style" d="M-8.9,881.8
+		c-1.2,0-2.4,0-3.6-0.1c-25.7-1-50.3-12-69.5-31.2l7.1-7.1c17.3,17.3,39.6,27.4,62.8,28.2c23.2,0.9,45.1-7.7,61.5-24.1
+		c23.9-23.9,30.9-61.1,17.1-90.6l9-4.2C91,786.1,83.2,828,56.4,854.7C38.9,872.3,15.8,881.8-8.9,881.8z"/>
+</g>
+</svg>
