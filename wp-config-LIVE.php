@@ -26,7 +26,7 @@ define('DB_NAME', 'gj_portfolio2016');
 define('DB_USER', 'gregjacobz');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'nuggets420');
+define('DB_PASSWORD', 'chickentime');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
